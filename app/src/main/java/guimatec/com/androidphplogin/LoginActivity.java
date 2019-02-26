@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void login(){
-        StringRequest request = new StringRequest(Request.Method.POST,"http://192.168.0.12/loginapp/login.php",
+        StringRequest request = new StringRequest(Request.Method.POST,"http://000.000.0.00/loginapp/login.php",
         new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
